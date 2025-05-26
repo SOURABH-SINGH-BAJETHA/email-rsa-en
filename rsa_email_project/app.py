@@ -13,6 +13,10 @@ app.secret_key = 'your_secret_key_here'  # Required for flashing messages
 def home():
     return render_template('home.html')
 
+@app.route("/contribution")
+def contribution():
+    return render_template("contribution.html")
+
 # Encrypt + Send Email
 @app.route('/encrypt', methods=['GET', 'POST'])
 def encrypt():
