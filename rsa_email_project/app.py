@@ -34,7 +34,7 @@ def encrypt():
 
         # Email it
         sender = "yoichiisagi696942@gmail.com"
-        password = "cgyqfogjcbmqwzlv"
+        password = ""
 
         msg = EmailMessage()
         msg.set_content(encrypted_b64)
